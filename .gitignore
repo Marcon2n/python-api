@@ -44,3 +44,6 @@ coverage.xml
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+#Pipenv
+*.lock
