@@ -1,0 +1,46 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Distribution/build folders
+build/
+dist/
+*.egg-info/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Environment variables
+*.env
+
+# Bytecode
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage reports
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# IDE configuration files (optional, based on your IDE)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
