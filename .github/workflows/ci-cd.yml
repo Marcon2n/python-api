@@ -29,4 +29,4 @@ jobs:
 
       - name: Deploy Application
         run: |
-          pipenv run uvicorn app.main:app --port 8000
+          timeout 60s pipenv run uvicorn app.main:app --port 8000
